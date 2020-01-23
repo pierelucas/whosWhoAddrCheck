@@ -10,7 +10,7 @@ typedef PVOID HWND;
 
 extern __intptr_t __currentBrk;
 
-void* __sbrk(__intptr_t increment);
+HWND __sbrk(__intptr_t increment);
 
 bool heapAddr(void* checkPtr);
 
